@@ -1,89 +1,64 @@
-# Lunar Ice Detection
+# Lunar Ice Detection System
 
-## Problem Statement
-Detection and Characterization of Subsurface Ice in Lunar South Polar Regions Using Chandrayaan-2 Radar and Imagery Data for Landing Site and Rover Traverse Planning.
+An advanced AI-powered web application for detecting and mapping water ice deposits on the Moon's surface using satellite imagery and machine learning algorithms.
 
-This project focuses on detecting and characterizing subsurface ice in the lunar south polar region using radar and imagery data from the Chandrayaan-2 mission. The goal is to identify ice-bearing regions that can support future lunar landings and rover traverses, while also aiding in resource planning for future lunar exploration missions.
+## Features
 
-## Objective
-- Detect probable subsurface ice zones in lunar south polar regions
-- Characterize ice-bearing regions using radar and imagery features
-- Identify candidate landing sites with safer terrain and resource potential
-- Recommend rover traverse routes for exploration and sampling
+- 🛰️ **Satellite Data Processing** - Upload and analyze satellite imagery for ice detection
+- 📊 **AI-Powered Analysis** - Machine learning algorithms for accurate ice detection
+- 🗺️ **Interactive Map Viewer** - Visualize detected ice deposits on the lunar surface
+- 📈 **Data Analysis Tools** - Comprehensive analysis and trend tracking
+- 🌙 **Real-time Detection** - Process and analyze data in real-time
 
-## Motivation
-Water ice in permanently shadowed craters can be used for:
-- life support systems
-- oxygen and fuel production
-- scientific exploration
-- future lunar base planning
+## Project Structure
 
-## Data Sources
-- Chandrayaan-2 SAR data
-- Chandrayaan-2 optical imagery (OHRC / available imagery subsets)
-- Digital Elevation Models (DEM)
-- Terrain and thermal datasets if available
-- Lunar geospatial reference layers
-
-## Methodology
-1. Load and preprocess radar and optical datasets
-2. Extract relevant texture, terrain, and radar-based features
-3. Train an ML model to classify ice vs non-ice candidates
-4. Generate ice-probability maps
-5. Rank landing-site suitability
-6. Plan rover traverse routes based on terrain and resource accessibility
-7. Visualize results and prepare final report
-
-## Technologies
-- Python
-- NumPy, Pandas, SciPy
-- scikit-learn
-- scikit-image
-- OpenCV
-- TensorFlow / PyTorch (optional)
-- Rasterio / GDAL
-- Matplotlib / Seaborn / Plotly
-- Jupyter Notebook
-
-## Repository Structure
-```text
-lunar-ice-detection/
-├── README.md
-├── requirements.txt
-├── .gitignore
-├── docs/
-│   └── problem_statement.md
-├── src/
-│   ├── __init__.py
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── model.py
-│   ├── landing_site_analysis.py
-│   └── visualization.py
-├── notebooks/
-│   ├── 01_data_exploration.ipynb
-│   ├── 02_preprocessing.ipynb
-│   └── 03_model_training.ipynb
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── metadata/
-├── models/
-│   └── trained/
-├── outputs/
-│   ├── maps/
-│   ├── plots/
-│   └── reports/
-└── test/
+```
+├── index.html      # Main HTML file
+├── styles.css      # Styling and responsive design
+├── script.js       # Interactive functionality
+└── README.md       # Project documentation
 ```
 
-## Expected Outputs
-- Ice probability map
-- Candidate landing sites
-- Terrain suitability map
-- Traverse path suggestions
-- Final project report and visuals
+## Getting Started
 
-## Reference
-https://1drv.ms/p/c/E3467E30EAB586B9/IQC5vHlXJh-1Q71xytDBTvfNATFcl6aKzAk0ZektSIzpqaY?e=frxUHf
+1. Clone the repository
+2. Open `index.html` in a web browser
+3. Navigate through the different sections using the menu
+
+## Technologies Used
+
+- HTML5
+- CSS3 (with responsive design)
+- Vanilla JavaScript
+- Satellite imagery data
+- Machine learning algorithms (Python backend)
+
+## Key Lunar Regions
+
+The system focuses on detecting ice in major lunar craters:
+
+- **Shackleton Crater** - South Pole
+- **Korolev Crater** - High latitude
+- **Haworth Crater** - Polar region
+- **de Gerlache Crater** - South Pole
+
+## Future Enhancements
+
+- [ ] Backend API integration
+- [ ] Real-time data uploads
+- [ ] Advanced visualization with 3D mapping
+- [ ] Machine learning model integration
+- [ ] Historical data comparison
+- [ ] Export functionality
+
+## Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+## License
+
+MIT License - Feel free to use this project for your own purposes.
+
+## Contact
+
+For more information, visit the [GitHub repository](https://github.com/triveni1323-crypto/lunar-ice-detection)

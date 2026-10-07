@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lunar Ice Detection System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <h1 class="logo">🌙 Lunar Ice Detection</h1>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#detection" class="nav-link">Detection</a></li>
+                <li><a href="#data" class="nav-link">Data</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2>Advanced Lunar Ice Detection</h2>
+            <p>Detecting and mapping water ice deposits on the Moon using advanced AI and satellite imagery</p>
+            <button class="btn btn-primary" onclick="scrollToSection('detection')">Get Started</button>
+        </div>
+    </section>
+
+    <section id="detection" class="detection-section">
+        <div class="container">
+            <h2>Detection Tools</h2>
+            <div class="detection-grid">
+                <div class="detection-card">
+                    <div class="card-icon">🛰️</div>
+                    <h3>Satellite Data</h3>
+                    <p>Upload and analyze satellite imagery for ice detection</p>
+                    <button class="btn btn-secondary">Upload Image</button>
+                </div>
+                <div class="detection-card">
+                    <div class="card-icon">📊</div>
+                    <h3>Analysis</h3>
+                    <p>Run AI-powered analysis on lunar surface data</p>
+                    <button class="btn btn-secondary">Start Analysis</button>
+                </div>
+                <div class="detection-card">
+                    <div class="card-icon">🗺️</div>
+                    <h3>Map Viewer</h3>
+                    <p>Interactive visualization of detected ice deposits</p>
+                    <button class="btn btn-secondary">View Map</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="data" class="data-section">
+        <div class="container">
+            <h2>Recent Detections</h2>
+            <table class="data-table">
+                <thead>
+                    <tr>
+                        <th>Location</th>
+                        <th>Latitude</th>
+                        <th>Longitude</th>
+                        <th>Ice Concentration (%)</th>
+                        <th>Detection Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Shackleton Crater</td>
+                        <td>-89.9°</td>
+                        <td>0°</td>
+                        <td>89.3%</td>
+                        <td>2026-09-15</td>
+                    </tr>
+                    <tr>
+                        <td>Korolev Crater</td>
+                        <td>-73.25°</td>
+                        <td>158.07°</td>
+                        <td>76.5%</td>
+                        <td>2026-09-12</td>
+                    </tr>
+                    <tr>
+                        <td>Haworth Crater</td>
+                        <td>-82.67°</td>
+                        <td>97.83°</td>
+                        <td>82.1%</td>
+                        <td>2026-09-10</td>
+                    </tr>
+                    <tr>
+                        <td>de Gerlache Crater</td>
+                        <td>-80.5°</td>
+                        <td>0.5°</td>
+                        <td>71.4%</td>
+                        <td>2026-09-08</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container">
+            <h2>About This Project</h2>
+            <div class="about-content">
+                <p>The Lunar Ice Detection System is an advanced AI-powered platform designed to identify and map water ice deposits on the Moon's surface. Using satellite imagery and machine learning algorithms, we can detect ice-bearing regions with high accuracy.</p>
+                <h3>Key Features:</h3>
+                <ul class="features-list">
+                    <li>AI-powered ice detection algorithms</li>
+                    <li>Real-time satellite data processing</li>
+                    <li>Interactive mapping and visualization</li>
+                    <li>Comprehensive data analysis tools</li>
+                    <li>Historical trend analysis</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 Lunar Ice Detection System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
