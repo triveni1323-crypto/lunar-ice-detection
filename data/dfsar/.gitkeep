@@ -1,0 +1,15 @@
+# Lunar Ice Detection project setup
+
+This repository now includes a small synthetic DFSAR-style sample dataset for prototyping.
+
+Files added:
+- `data/dfsar/README.md` — explains the sample dataset and limitations
+- `data/dfsar/sample_dfsar_radar.csv` — synthetic radar + terrain feature samples
+- `data/dfsar/generate_sample_dfsar.py` — script to regenerate the sample CSV
+
+Use this dataset to:
+- test the data pipeline,
+- run preliminary machine learning models,
+- build a working prototype before using the official DFSAR data.
+
+For real mission-grade work, replace this with official DFSAR or mission product files.
