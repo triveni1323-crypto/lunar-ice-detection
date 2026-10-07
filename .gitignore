@@ -1,0 +1,20 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pkl
+*.h5
+.ipynb_checkpoints/
+venv/
+.env
+.DS_Store
+
+# Data directories
+/data/raw/
+/data/processed/
+
+# Model outputs
+/models/
+/outputs/
+
+# OS files
+Thumbs.db
